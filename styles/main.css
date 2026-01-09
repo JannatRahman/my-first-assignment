@@ -203,10 +203,6 @@ color: #001931;
 
 
 
-.main-knowledge .knowledge-2{
-  
-
-}
 
 .main-knowledge .knowledge-2 .primary{
  color: #30B868;
@@ -257,4 +253,45 @@ font-weight:300 ;
   padding-left: 150px;
 }
  
+.main-thinking{
+  text-align: center;
+  background-color: #F7F6F2;
+  margin-left:150px ;
+  margin-right: 150px;
+  margin-bottom: 50px;
+}  
+
+.main-thinking h2{
+  font-size: 40px;
+  font-weight: bold;
+  color: var(--Style, rgba(0, 25, 49, 1));
+  padding-top: 50px;
+}
+
+
+
+
+.main-thinking p{
+font-size: 16px;
+font-weight:400 ;
+color: var(--#627382, rgba(98, 115, 130, 1));
+padding-top:20px ;
+padding-bottom: 20px;
+
+}
+
+.my-btn-5{
+ color:white;
+  background-color: #30B868;
+  padding:10px ;
+  font-weight:400 ;
+  font-size:16px ;
+  border-radius: 4px;
+  border: none;
+  box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.15);
+}
   
+
+ 
+}
+
