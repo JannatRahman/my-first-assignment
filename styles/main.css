@@ -1,6 +1,8 @@
 *{
    font-family: "Oswald", sans-serif;
    margin: 0;
+   padding: 0;
+   
 }
 
 
@@ -103,6 +105,79 @@ margin: 20px;
   color:  rgba(70, 145, 101, 1);
   border-radius: 25px;
  padding-top: 30px;
+}
+
+.main-2 .card{
+ text-align: center;
+ padding-bottom: 30px;
+ padding-top: 35px;
+ padding-bottom: 35px;
+ 
+
+}
+ 
+.main-2 .card h2{
+  font-size: 48px;
+ font-weight: 700;
+ color: #001931;
+
+
+}
+
+ .card p{
+  color: var(--#627382, rgba(98, 115, 130, 1));
+  font-size: 16px;
+  font-weight: 400;
+
+}
+
+.main-2 .card-2{
+background-color: white;
+border-radius: 12px;
+padding: 12px;
+box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.06);
+display: flex;
+flex-direction: column;
+gap: 15px;
+
+
+}
+    
+.card-2-parent{
+  display: flex;
+  gap: 20px;
+  padding-left: 150px;
+  padding-right: 150px;
+  padding-bottom: 50px;
+  
+}
+
+
+
+
+
+.card-2 img{
+  background-color: rgba(249, 85, 85, 1);; 
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  padding: 3px;
+  border-radius: 50%;
+  margin-left: 85px;
+
+  
+
+}
+.card-2 h2{
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+color: #001931;
+}
+.card-2 p{
+  color:-#627382;
+  font-size: 16px;
+  text-align: center;
 }
 
 
