@@ -41,6 +41,9 @@ border: none;
 border-radius: 5px;
 cursor: pointer;
 }
+.my-btn-1:hover{
+  background-color: aquamarine;
+}
 
 .my-btn-2{
   color:white;
@@ -51,6 +54,10 @@ cursor: pointer;
   border-radius: 4px;
   border: none;
   cursor: pointer;
+}
+
+.my-btn-2:hover{
+  background-color: crimson;
 }
 
 .my-btn-3{
@@ -64,7 +71,9 @@ cursor: pointer;
   cursor: pointer;
 }
 
-
+.my-btn-3:hover{
+  background-color: rgb(194, 67, 105);
+}
 
 
 
@@ -126,6 +135,9 @@ margin: 20px;
 .my-btn-4 i{
 background-color: #30B868;
 border-radius: 30%;
+}
+.my-btn-4:hover{
+  background-color: rgb(236, 166, 81);
 }
 
 .main-2 .card{
@@ -382,9 +394,12 @@ padding-bottom: 20px;
   border: none;
   box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.15);
   cursor: pointer;
+
 }
   
-
+.my-btn-5:hover{
+  background-color: rgb(236, 166, 81);
+}
  
 
 
