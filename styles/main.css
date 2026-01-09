@@ -194,7 +194,10 @@ color: #001931;
   padding-bottom: 100px;
 }
 
-.main-knowledge .knowledge-1{
+.knowledge a{
+  width: 50px;
+  height: 50px;
+  background-color: #30B868;
 
 }
 
@@ -238,7 +241,7 @@ font-weight:300 ;
   font-weight: 500;
   color: var(--Style, rgba(0, 25, 49, 1));
   padding-top: 30px;
-  padding-left: 25px;
+  
 
 }
 
@@ -252,7 +255,75 @@ font-weight:300 ;
   height: 400px;
   padding-left: 150px;
 }
+
+
+.knowledge-list{
+list-style: none;
+
+
+}
  
+.knowledge-list li{
+  background-image: url("../assets/CheckCircle.png");
+  background-repeat: no-repeat;
+  background-position:left center;
+  background-size: 18px 18px;
+  padding-left: 25px;
+  padding-bottom: 15px;
+  padding-right: 30px;
+  padding-top: none;
+ 
+}
+
+.footer{
+  background-color: #001931;
+}
+
+
+.footer-mother{
+  display: flex;
+  justify-content: space-between;
+  padding-left: 140px;
+  padding-right: 140px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  
+}
+.footer-socials p{
+  font-size: 20px;
+  font-weight: 500;
+  color: white;
+
+}
+
+.footer-socials i{
+  background-color: #F7F6F2;
+  border-radius: 50%;
+}
+
+
+.copyright hr{
+  color: #73bddf;
+  padding-left:100px;
+  padding-right: 1000px;
+}
+ 
+.copyright p{
+  color:white;
+ text-align: center;
+ padding-top: 25px;
+ padding-bottom: 25px;
+ font-size: 16px;
+ font-weight: 300;
+}
+
+.footer-socials .link{
+  padding-bottom: 10px;
+}
+
+
+
+
 .main-thinking{
   text-align: center;
   background-color: #F7F6F2;
